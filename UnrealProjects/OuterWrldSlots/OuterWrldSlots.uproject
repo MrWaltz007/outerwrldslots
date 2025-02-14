@@ -1,0 +1,21 @@
+{
+  "ProjectName": "OuterWrldSlots",
+  "EngineVersion": "5.3",
+  "Modules": [
+    {
+      "Name": "OuterWrldSlots",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "TargetPlatforms": ["Android", "IOS"],
+  "Settings": {
+    "bEnableMultiplayer": true,
+    "bUseEncryption": true,
+    "bEnableInAppPurchases": true
+  },
+  "Paths": {
+    "ContentDirectory": "OuterWrldSlots/Content",
+    "ConfigDirectory": "OuterWrldSlots/Config"
+  }
+}
